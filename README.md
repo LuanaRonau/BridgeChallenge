@@ -28,9 +28,7 @@ Quando o número 10 é inserido o resultado é 4, pois existem 4 números primos
 ---
 
 
-### 📝 Autora
-
-Luana Rönau Mattos, estudante de Sistemas de Informação na UFSC e Diretora Executiva de Marketing na Empresa Júnior Pixel
+Desenvolvido por Luana Rönau Mattos 💜
 
 
 ### Referência
