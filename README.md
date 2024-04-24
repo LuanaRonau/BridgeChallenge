@@ -8,10 +8,7 @@
 
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) &nbsp;
 
-🧱 Backend feito com Java
-
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
-
+Não tenho conhecimento sobre a linguagem Java, por esse motivo a aplicação foi completamente feita em React
 
 ---
 
@@ -28,7 +25,7 @@ Quando o número 10 é inserido o resultado é 4, pois existem 4 números primos
 ---
 
 
-Desenvolvido por Luana Rönau Mattos 💜
+Desenvolvido por Luana Ronau 💜
 
 
 ### Referência
