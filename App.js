@@ -8,17 +8,17 @@ function App() {
   const [time, setTime] = useState('');
   const [inputValue, setInputValue] = useState('');
 
-  function calculatePrimeQtt(intKeyboard){
-    let primeQtt = 0
+  function calculatePrimeQtt(intKeyboard) {
+    let primeQtt = 0;
     const startTime = performance.now();
-    for (var i = intKeyboard; i >= 2; i--){
-      if (isPrime(i)){
-        primeQtt++
-      } 
+    for (let i = intKeyboard; i >= 2; i--) {
+      if (isPrime(i)) {
+        primeQtt++;
+      }
     }
-    setPrime(primeQtt) 
     const endTime = performance.now();
-    setTime(`${endTime - startTime}ms`);
+    setTime(endTime - startTime);
+    setPrime(primeQtt);
   }
 
   function isPrime(num){
@@ -66,7 +66,7 @@ function App() {
 
           <div className='timeResult'>
             <h2 className='timeLabel'>Tempo levado para calculá-lo:</h2>
-            <h2 className='time'>{time}</h2>
+            <h2 className='time'>{time}ms</h2>
           </div>
 
         </div>
