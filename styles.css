@@ -1,0 +1,65 @@
+.container{
+    background: -webkit-linear-gradient(0deg,#b82886,#4C1976,#1E0D35);
+    background: linear-gradient(0deg,#b82886,#4C1976,#1E0D35);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title{
+    margin: 40px;
+    font-size: 40px;
+}
+
+h1,h2{
+    color: rgb(251, 251, 252);
+}
+
+.containerInput{
+    background-color: rgba(255,255,255, 0.2);
+    border-radius: 8px;
+    padding: 15px 25px;
+    margin: 15px 0;
+    box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+.containerInput input {
+    background-color: transparent;
+    border: 0;
+    color: rgb(251, 251, 252);
+    font-size: 20px;
+    outline: none;
+}
+
+.containerInput input::placeholder {
+    color: rgb(251, 251, 252);
+}
+
+button{
+    margin-bottom: 50px;
+    margin-top: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.1);
+    font-size: 17px;
+    border: 0;
+    transition: transform 0.5s;
+}
+
+button:hover{
+    background-color: rgb(248, 246, 246);
+    transform: scale(1.05);
+}
+
+.primeResult, .timeResult{
+    display:flex;
+    margin: 15px;
+}
+
+
+.primeLabel, .timeLabel{
+    margin-right: 25px;
+}
