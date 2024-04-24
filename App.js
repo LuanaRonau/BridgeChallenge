@@ -43,32 +43,35 @@ function App() {
 
 
   return (
-    <div className="container">
-      <h1 className="title">QUANTIDADE DE NÚMEROS PRIMOS</h1>
+    <div>
+      <main className="container">
+        <h1 className="title">QUANTIDADE DE NÚMEROS PRIMOS</h1>
 
-      <div className="containerInput">
-        <input 
-          type="text" 
-          placeholder='Digite um número inteiro'
-          value={inputValue}
-          onChange={handleInputChange}/>
-      </div>
-
-      <button className='resultButton' onClick={handleButtonClick}>Ver resultado</button>
-
-      <div classname="resultContainer">
-
-        <div className='primeResult'>
-          <h2 className='primeLabel'>Resultado:</h2>
-          <h2 className='prime'>{prime}</h2>
+        <div className="containerInput">
+          <input 
+            type="text" 
+            placeholder='Digite um número inteiro'
+            value={inputValue}
+            onChange={handleInputChange}/>
         </div>
 
-        <div className='timeResult'>
-          <h2 className='timeLabel'>Tempo levado para calculá-lo:</h2>
-          <h2 className='time'>{time}</h2>
-        </div>
+        <button className='resultButton' onClick={handleButtonClick}>Ver resultado</button>
 
-      </div>
+        <div classname="resultContainer">
+
+          <div className='primeResult'>
+            <h2 className='primeLabel'>Resultado:</h2>
+            <h2 className='prime'>{prime}</h2>
+          </div>
+
+          <div className='timeResult'>
+            <h2 className='timeLabel'>Tempo levado para calculá-lo:</h2>
+            <h2 className='time'>{time}</h2>
+          </div>
+
+        </div>
+      </main>
+      <footer className='autorName'>Developed by Luana Ronau</footer>
     </div>
   );
 }
