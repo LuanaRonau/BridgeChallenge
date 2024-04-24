@@ -1,7 +1,7 @@
 .container{
     background: -webkit-linear-gradient(0deg,#b82886,#4C1976,#1E0D35);
     background: linear-gradient(0deg,#b82886,#4C1976,#1E0D35);
-    height: 100vh;
+    height: 97vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,4 +62,12 @@ button:hover{
 
 .primeLabel, .timeLabel{
     margin-right: 25px;
+}
+
+.autorName{
+    background-color: rgb(248, 246, 246);
+    height: 3vh;
+    color: #4C1976;
+    display: flex;
+    justify-content: center;
 }
