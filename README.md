@@ -8,7 +8,7 @@
 
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) &nbsp;
 
-Não tenho conhecimento sobre a linguagem Java, só consegui fazer pelo React
+Não tenho conhecimento sobre a linguagem Java, só consegui fazer usando o React
 
 ---
 
