@@ -8,21 +8,23 @@
 
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) &nbsp;
 
-Não tenho conhecimento sobre a linguagem Java, só consegui fazer usando o React
+
 
 ---
+
 
 
 ### 🧠 Projeto
 
-Nessa aplicação o usuário poderá inserir um número inteiro e obter a quantidade de números primos que existem menores que ele, além de obter o tempo demorado para a realização desse cálculo
+Nessa aplicação o usuário poderá inserir um número inteiro e obter a quantidade de números primos que existem menores que ele, além de obter o tempo demorado para a realização desse cálculo.
 
 ### 🗨 Exemplo de Funcionamento
 
-Quando o número 10 é inserido o resultado é 4, pois existem 4 números primos menores que 10 (2,3,5,7)
+Quando o número 10 é inserido, o resultado é 4, pois existem 4 números primos menores que 10 (2,3,5,7).
 
 
 ---
+
 
 
 Desenvolvido por Luana Ronau 💜
